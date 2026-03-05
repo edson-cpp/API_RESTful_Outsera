@@ -20,8 +20,8 @@ API RESTful desenvolvida em Python para leitura da lista de indicados e vencedor
 
 ### 1. Clonar o repositório
 
-git clone <git@github.com:edson-cpp/API_RESTful_Outsera.git><br>
-cd <API_RESTful_Outsera>
+git clone git@github.com:edson-cpp/API_RESTful_Outsera.git
+cd API_RESTful_Outsera
 
 ### 2. Criar e ativar ambiente virtual
 ## Linux/macOS:
