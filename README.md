@@ -24,11 +24,11 @@ git clone git@github.com:edson-cpp/API_RESTful_Outsera.git<br>
 cd API_RESTful_Outsera
 
 ### 2. Criar e ativar ambiente virtual
-## Linux/macOS:
+#### Linux/macOS:
 python3 -m venv venv<br>
 source venv/bin/activate
 
-## Windows:
+#### Windows:
 python -m venv venv<br>
 venv\Scripts\activate
 
@@ -38,14 +38,14 @@ pip install -r requirements.txt
 ### 4. Executar a aplicação
 uvicorn app.main:app --reload
 
-## A API estará disponível em:
+#### A API estará disponível em:
 http://localhost:8000
 
-## Documentação automática (Swagger):
+#### Documentação automática (Swagger):
 http://localhost:8000/docs
 
 ### Endpoint disponível
-## GET /producers/intervals
+#### GET /producers/intervals
 Retorna os produtores com:
 - menor intervalo entre vitórias consecutivas
 - maior intervalo entre vitórias consecutivas<br>
@@ -73,11 +73,11 @@ Exemplo de resposta<br>
 ```
 
 ### Testes
-## Para executar os testes:
-# Linux/macOS:
+#### Para executar os testes:
+#### Linux/macOS:
 export PYTHONPATH=.<br>
 pytest
-# Windows:
+#### Windows:
 set PYTHONPATH=.<br>
 pytest<br>
 
