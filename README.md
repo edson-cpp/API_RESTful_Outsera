@@ -20,16 +20,16 @@ API RESTful desenvolvida em Python para leitura da lista de indicados e vencedor
 
 ### 1. Clonar o repositório
 
-git clone git@github.com:edson-cpp/API_RESTful_Outsera.git
+git clone git@github.com:edson-cpp/API_RESTful_Outsera.git<br>
 cd API_RESTful_Outsera
 
 ### 2. Criar e ativar ambiente virtual
 ## Linux/macOS:
-python3 -m venv venv
+python3 -m venv venv<br>
 source venv/bin/activate
 
 ## Windows:
-python -m venv venv
+python -m venv venv<br>
 venv\Scripts\activate
 
 ### 3. Instalar dependências
@@ -48,8 +48,10 @@ http://localhost:8000/docs
 ## GET /producers/intervals
 Retorna os produtores com:
 - menor intervalo entre vitórias consecutivas
-- maior intervalo entre vitórias consecutivas
-Exemplo de resposta
+- maior intervalo entre vitórias consecutivas<br>
+Exemplo de resposta<br>
+
+```
 {
   "min": [
     {
@@ -68,15 +70,16 @@ Exemplo de resposta
     }
   ]
 }
+```
 
 ### Testes
 ## Para executar os testes:
 # Linux/macOS:
-export PYTHONPATH=.
+export PYTHONPATH=.<br>
 pytest
 # Windows:
-set PYTHONPATH=.
-pytest
+set PYTHONPATH=.<br>
+pytest<br>
 
 Os testes de integração garantem que os dados retornados pela API estão consistentes com o arquivo CSV fornecido.
 
