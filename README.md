@@ -39,7 +39,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 
 #### A API estará disponível em:
-http://localhost:8000/producers/intervals
+http://localhost:8000
 
 #### Documentação automática (Swagger):
 http://localhost:8000/docs
